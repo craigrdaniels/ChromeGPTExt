@@ -1,0 +1,9 @@
+- [ ] create settings.json
+ - [ ] field id's and associate prompts, input
+ - [ ] action colour
+- [ ] openai.json - api key / role / prompts
+- [ ] create icon component
+- [ ] icons transparent
+- [ ] allow on multiple pages with different settings / form fields
+- [ ] use data from tymp fields, audiogram fields, select / pull-down lists
+- [ ] allow undo / switching between multiple responses and original text
