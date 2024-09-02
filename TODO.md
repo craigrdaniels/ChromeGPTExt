@@ -7,3 +7,7 @@
 - [ ] allow on multiple pages with different settings / form fields
 - [ ] use data from tymp fields, audiogram fields, select / pull-down lists
 - [ ] allow undo / switching between multiple responses and original text
+- [ ] unit tests?
+
+- Future:
+- allow settings menu with completely customizable prompts, api keys, chosen fields for anyone to use

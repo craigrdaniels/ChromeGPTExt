@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState, MouseEvent} from 'react'
 import { Sparkles } from 'lucide-react'
 import { LoaderCircle } from 'lucide-react'
 import { reWriteNotes } from './OpenAI'
@@ -8,7 +8,8 @@ const AssessmentNotes = () => {
   const [loading, setLoading] = useState(false)
   const [isError, setIsError] = useState(false)
 
-  const handleClick = async (e: any) => {
+  const handleClick = async (e: MouseEvent) => {
+    e.preventDefault()
     setLoading(true)
     setIsError(false)
     try {
@@ -27,7 +28,7 @@ const AssessmentNotes = () => {
 
         const newMessage = await reWriteNotes(message)
 
-        prevSibling.value = newMessage
+        prevSibling.value = newMessage || ''
       } else {
         console.error('No previous sibling')
         setIsError(true)
@@ -41,10 +42,13 @@ const AssessmentNotes = () => {
   }
 
   return (
-    loading ? <LoaderCircle className='h-6 w-6 text-blue-500 animate-spin' /> :
-      <Sparkles className={['h-6 w-6 cursor-pointer', isError ? 'text-red-500' : 'text-blue-500'].filter(Boolean).join(' ')}
-        onClick={handleClick}
-      />
+    <button onClick={handleClick}>
+      {
+        loading ? <LoaderCircle className='h-6 w-6 text-blue-500 animate-spin' /> :
+          <Sparkles className={['h-6 w-6 cursor-pointer', isError ? 'text-red-500' : 'text-blue-500'].filter(Boolean).join(' ')}
+          />
+      }
+    </button>
   )
 }
 

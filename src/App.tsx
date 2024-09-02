@@ -1,4 +1,4 @@
-import React, { StrictMode, useEffect } from 'react'
+import { StrictMode, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 import AssessmentNotes from './functions/AssessmentNotes'
 
@@ -8,7 +8,8 @@ const App = () => {
     const root = document.createElement('div')
     root.id = 'my-ext'
 
-    const assessmentTextArea = document.getElementById('id-009')
+    const assessmentTextArea = document.getElementById('input-014aa')
+    // @ts-expect-error - parentNode is not a property of null
     assessmentTextArea?.parentNode.classList.add('relative')
     assessmentTextArea?.parentElement?.insertBefore(root, assessmentTextArea.nextSibling)
 
@@ -19,9 +20,7 @@ const App = () => {
     )
   }, [])
 
-
   return null
-
 }
 
 export default App
