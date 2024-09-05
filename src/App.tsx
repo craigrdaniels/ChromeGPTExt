@@ -1,6 +1,5 @@
 import { StrictMode, useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
-import AssessmentNotes from './functions/AssessmentNotes'
 
 const App = () => {
 
@@ -15,7 +14,6 @@ const App = () => {
 
     createRoot(root).render(
       <StrictMode>
-        <AssessmentNotes />
       </StrictMode>
     )
   }, [])
