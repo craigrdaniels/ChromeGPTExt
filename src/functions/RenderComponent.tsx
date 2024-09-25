@@ -59,8 +59,8 @@ const RenderComponent = (component: Component) => {
   return (
       <button onClick={handleClick}>
         {
-          loading ? <LoaderCircle className='print:!hidden h-6 w-6 text-orange-500 animate-spin' /> :
-            <Sparkles className={['print:!hidden h-6 w-6 cursor-pointer', isError ? 'text-red-500' : 'text-blue-500/70'].filter(Boolean).join(' ')}
+          loading ? <LoaderCircle className='icon loading' /> :
+            <Sparkles className={['icon', isError && 'error'].filter(Boolean).join(' ')}
             />
         }
       </button>

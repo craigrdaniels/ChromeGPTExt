@@ -1,3 +1,36 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.component {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 0.5rem;
+  z-index: 999;
+}
+
+.component button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.component .icon {
+  color: #0000FF80;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.component .icon.error {
+  color: #FF000080;
+}
+
+.component .icon.loading {
+  animation: spinner 2s linear infinite;
+}
+
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.k-pdf-export .noExport {
+  display: none !important;
+}

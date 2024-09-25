@@ -5,6 +5,7 @@ type InputFields = {
 
 export type Component = {
   id: string,
+  page: string,
   name: string,
   targetId: string,
   useTargetInput?: boolean,
