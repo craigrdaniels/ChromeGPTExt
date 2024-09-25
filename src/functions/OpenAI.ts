@@ -46,7 +46,7 @@ export const createResponse = async (input: string) => {
         },
       ],
       temperature: 0.9,
-      max_tokens: 250,
+      max_tokens: 500,
       top_p: 1,
       frequency_penalty: 0,
       presence_penalty: 0,

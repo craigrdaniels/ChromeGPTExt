@@ -15,6 +15,7 @@ Components?.map((component:Component, index:number) => {
   root.style.setProperty('right', '20px')
   root.style.setProperty('padding', '0.5rem')
   root.style.setProperty('z-index', '999')
+  
 
   const targetElement = document.getElementById(component.targetId)
 
