@@ -31,7 +31,7 @@ export const Components: Component[] = [
     name: "GPReport",
     targetId: "input-055-comments",
     tooltip: "Create GP Report",
-    requestMessage: "Please write a brief GP report with relevant case history, the following results and recommendations for hearing aids or referral if reuqired: ",
+    requestMessage: "Please write a brief GP report with relevant case history, the following results and recommendations for hearing aids or referral if reuqired. Please format case history with bullet poitns and don't include salutation or closing: ",
     inputFields: [
       {
         id: "input-014aa",
