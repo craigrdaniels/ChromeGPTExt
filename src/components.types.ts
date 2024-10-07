@@ -5,6 +5,7 @@ type InputFields = {
 
 export type Component = {
   id: string,
+  type: 'prompt' | 'file',
   page: string,
   name: string,
   targetId: string,

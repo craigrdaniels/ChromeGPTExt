@@ -4,6 +4,7 @@ export const Components: Component[] = [
   // Assessment
   {
     id: "my-ext",
+    type: "prompt",
     page: "F02C006",
     name: "ClinicalNotes",
     targetId: "input-014aa",
@@ -13,6 +14,7 @@ export const Components: Component[] = [
   },
   {
     id: "my-ext",
+    type: "prompt",
     page: "F02C006",
     name: "COSIGoals",
     targetId: "input-014",
@@ -27,6 +29,7 @@ export const Components: Component[] = [
   },
   {
     id: "my-ext",
+    type: "prompt",
     page: "F02C006",
     name: "GPReport",
     targetId: "input-055-comments",
@@ -46,6 +49,7 @@ export const Components: Component[] = [
   // Clinical Notes
   {
     id: "my-ext",
+    type: "prompt",
     page: "F02C025",
     name: "ClinicalNotes",
     targetId: "input-011",
@@ -56,6 +60,7 @@ export const Components: Component[] = [
   // Review (Aided)
   {
     id: "my-ext",
+    type: "prompt",
     page: "F02C001A",
     name: "ReviewNotes",
     targetId: "input-1001",
@@ -65,6 +70,7 @@ export const Components: Component[] = [
   },
   {
     id: "my-ext",
+    type: "prompt",
     page: "F02C001A",
     name: "COSIGoals",
     targetId: "input-018c",
@@ -80,6 +86,7 @@ export const Components: Component[] = [
   // Review (Unaided)
   {
     id: "my-ext",
+    type: "prompt",
     page: "F02C001B",
     name: "ReviewNotes",
     targetId: "input-0211",
@@ -89,6 +96,7 @@ export const Components: Component[] = [
   },
   {
     id: "my-ext",
+    type: "prompt",
     page: "F02C001B",
     name: "COSIGoals",
     targetId: "input-023",
@@ -104,6 +112,7 @@ export const Components: Component[] = [
   // Rehabilitation & Device Selection
   {
     id: "my-ext",
+    type: "prompt",
     page: 'FREHAB',
     name: "ReviewNotes",
     targetId: "input-audiological-review-001",
@@ -113,6 +122,7 @@ export const Components: Component[] = [
   },
   {
     id: "my-ext",
+    type: "prompt",
     page: 'FREHAB',
     name: "COSIGoals",
     targetId: "rehabiltation-plan-001",
@@ -124,5 +134,14 @@ export const Components: Component[] = [
         name: "Client Review Notes",
       },
     ],
+  },
+  {
+    id: "my-ext",
+    type: "file",
+    page: "F02C006",
+    name: "Upload",
+    targetId: "input-0037",
+    requestMessage: "Provide a concise interpretation of audiometric data, focusing on the hearing loss classification, impedance results, and speech testing outcomes. Keep the language straightforward and to the point without displaying numbers.: ",
+    tooltip: "Upload audiogram",
   },
 ]

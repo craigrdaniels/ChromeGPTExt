@@ -1,0 +1,202 @@
+{
+  "audiogram": [
+    {
+      "stimulus": "InsertPhoneRight",
+      "masked": false,
+      "values": [
+        {
+          "freq": 250,
+          "level": 35
+        },
+        {
+          "freq": 500,
+          "level": 25
+        },
+        {
+          "freq": 1000,
+          "level": 25
+        },
+        {
+          "freq": 1500,
+          "level": 20
+        },
+        {
+          "freq": 2000,
+          "level": 40
+        },
+        {
+          "freq": 3000,
+          "level": 65
+        },
+        {
+          "freq": 4000,
+          "level": 70
+        },
+        {
+          "freq": 6000,
+          "level": 70
+        },
+        {
+          "freq": 8000,
+          "level": 80
+        }
+      ]
+    },
+    {
+      "stimulus": "InsertPhoneLeft",
+      "masked": false,
+      "values": [
+        {
+          "freq": 250,
+          "level": 25
+        },
+        {
+          "freq": 500,
+          "level": 15
+        },
+        {
+          "freq": 1000,
+          "level": 30
+        },
+        {
+          "freq": 1500,
+          "level": 40
+        },
+        {
+          "freq": 2000,
+          "level": 50
+        },
+        {
+          "freq": 3000,
+          "level": 65
+        },
+        {
+          "freq": 4000,
+          "level": 70
+        },
+        {
+          "freq": 6000,
+          "level": 65
+        },
+        {
+          "freq": 8000,
+          "level": 80
+        }
+      ]
+    },
+    {
+      "stimulus": "BoneConductorRight",
+      "masked": true,
+      "values": [
+        {
+          "freq": 500,
+          "level": 10
+        },
+        {
+          "freq": 1000,
+          "level": 10
+        },
+        {
+          "freq": 1500,
+          "level": 15
+        },
+        {
+          "freq": 2000,
+          "level": 35
+        },
+        {
+          "freq": 3000,
+          "level": 65
+        },
+        {
+          "freq": 4000,
+          "level": 55
+        }
+      ]
+    },
+    {
+      "stimulus": "BoneConductorLeft",
+      "masked": true,
+      "values": [
+        {
+          "freq": 500,
+          "level": 10
+        },
+        {
+          "freq": 1000,
+          "level": 30
+        },
+        {
+          "freq": 1500,
+          "level": 40
+        },
+        {
+          "freq": 2000,
+          "level": 55
+        },
+        {
+          "freq": 3000,
+          "level": 55
+        },
+        {
+          "freq": 4000,
+          "level": 60
+        }
+      ]
+    }
+  ],
+  "impedance": [
+    {
+      "ear": "Left",
+      "values": {
+        "testPressure": -13,
+        "testVolume": 142,
+        "testCompliance": 76
+      }
+    },
+    {
+      "ear": "Right",
+      "values": {
+        "testPressure": -166,
+        "testVolume": 139,
+        "testCompliance": 92
+      }
+    }
+  ],
+  "speechAudiogram": [
+    {
+      "stimulus": "InsertPhoneRight",
+      "values": [
+        {
+          "level": 30,
+          "scorePct": 56.3
+        },
+        {
+          "level": 45,
+          "scorePct": 83.1
+        },
+        {
+          "level": 60,
+          "scorePct": 93.2
+        }
+      ]
+    },
+    {
+      "stimulus": "InsertPhoneLeft",
+      "values": [
+        {
+          "level": 30,
+          "scorePct": 56.3
+        },
+        {
+          "level": 45,
+          "scorePct": 73.1
+        },
+        {
+          "level": 60,
+          "scorePct": 86.5
+        }
+      ]
+    }
+  ]
+}

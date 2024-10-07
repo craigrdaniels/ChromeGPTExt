@@ -4,6 +4,7 @@ import { type Component } from './components.types'
 import './index.css'
 import { Components } from './components'
 import RenderComponent from './functions/RenderComponent'
+import RenderFileInput from './functions/RenderFileInput'
 
 
 Components?.map((component: Component, index: number) => {
@@ -25,11 +26,27 @@ Components?.map((component: Component, index: number) => {
     targetElement?.parentNode.style.setProperty('position', 'relative')
     targetElement?.parentNode?.insertBefore(root, targetElement.nextSibling)
 
-    createRoot(root).render(
-      <StrictMode key={index}>
-        <RenderComponent {...component} />
-      </StrictMode>
-    )
+    switch (component.type) {
+      case 'prompt':
+        createRoot(root).render(
+          <StrictMode key={index}>
+            <RenderComponent {...component} />
+          </StrictMode>
+        )
+        break
+
+      case 'file':
+        createRoot(root).render(
+          <StrictMode key={index}>
+            <RenderFileInput {...component} />
+          </StrictMode>
+        )
+        break
+
+      default:
+        break
+    }
+
   }
 })
 
