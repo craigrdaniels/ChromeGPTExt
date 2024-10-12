@@ -5,6 +5,7 @@ import './index.css'
 import { Components } from './components'
 import RenderComponent from './functions/RenderComponent'
 import RenderFileInput from './functions/RenderFileInput'
+import RenderTTS from './functions/RenderTTS'
 
 
 Components?.map((component: Component, index: number) => {
@@ -27,6 +28,27 @@ Components?.map((component: Component, index: number) => {
     targetElement?.parentNode?.insertBefore(root, targetElement.nextSibling)
 
     switch (component.type) {
+<<<<<<< HEAD
+=======
+      case 'tts':
+        root.classList.add('tts')
+        createRoot(root).render(
+          <StrictMode key={index}>
+            <RenderTTS />
+          </StrictMode>
+        )
+        break
+
+
+
+      case 'prompt':
+        createRoot(root).render(
+          <StrictMode key={index}>
+            <RenderComponent {...component} />
+          </StrictMode>
+        )
+        break
+>>>>>>> 866bfbe (init TTS support)
 
       case 'file':
         createRoot(root).render(

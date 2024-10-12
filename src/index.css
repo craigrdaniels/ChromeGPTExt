@@ -6,6 +6,10 @@
   z-index: 999;
 }
 
+.tts {
+  right: 50px;
+}
+
 .component button {
   background: none;
   border: none;

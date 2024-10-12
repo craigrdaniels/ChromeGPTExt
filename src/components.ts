@@ -14,6 +14,13 @@ export const Components: Component[] = [
   },
   {
     id: "my-ext",
+    type: "tts",
+    page: "F02C006",
+    name: "TTSInput",
+    targetId: "input-014aa"
+  },
+  {
+    id: "my-ext",
     type: "prompt",
     page: "F02C006",
     name: "COSIGoals",
