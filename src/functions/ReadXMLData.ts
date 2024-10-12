@@ -123,14 +123,12 @@ const ReadXMLData = (inputFile: string) => {
     .forEach(actionElement => {
       const ear = actionElement.elements.find(el => el.name === "pt:Description").elements[0].text.split(" ").at(-1)
 
-
-
       actionElement.elements.find(el => el.name === "pt:PublicData")
         .elements.filter(el => el.name === "AcousticImpedanceCompleteMeasurement")
         .forEach(measurement => {
           measurement.elements.filter(el => el.name === "TympanogramTest")
             .forEach(test => {
-              const date = actionElement.elements.find(el => el.name === "pt :ActionDate").elements[0].text
+              const date = actionElement.elements.find(el => el.name === "pt:ActionDate").elements[0].text
 
               const testCompliance = test.elements.find(el => el.name === "MaximumCompliance").elements[0].elements[0].elements[0].text
               const testVolume = test.elements.find(el => el.name === "CanalVolume").elements[0].elements[0].elements[0].text

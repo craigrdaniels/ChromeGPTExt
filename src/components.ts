@@ -34,7 +34,7 @@ export const Components: Component[] = [
     name: "GPReport",
     targetId: "input-055-comments",
     tooltip: "Create GP Report",
-    requestMessage: "Please write a brief GP report with relevant case history, the following results and recommendations for hearing aids or referral if reuqired. Please format case history with bullet poitns and don't include salutation or closing: ",
+    requestMessage: "Please write a brief GP report with relevant case history, the following results and recommendations for hearing aids or referral if required. Please use headings for results that are given (eg Impedance:, Audiometry:, Speech Discrimination:). Please format case history with bullet poitns and don't include salutation or closing: ",
     inputFields: [
       {
         id: "input-014aa",
@@ -141,7 +141,7 @@ export const Components: Component[] = [
     page: "F02C006",
     name: "Upload",
     targetId: "input-0037",
-    requestMessage: "Provide a concise interpretation of audiometric data, focusing on the hearing loss classification, impedance results, and speech testing outcomes. Keep the language straightforward and to the point without displaying numbers.: ",
+    requestMessage: "Provide a concise interpretation of audiometric data, focusing on the hearing loss classification, impedance results, and speech testing outcomes. Be sure to make note of any significant conductive component or asymmetry between the ears (only if these exit). Keep the language straightforward and to the point without displaying numbers.: ",
     tooltip: "Upload audiogram",
   },
 ]
