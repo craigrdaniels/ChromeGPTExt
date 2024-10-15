@@ -55,8 +55,8 @@ export const Components: Component[] = [
     tooltip: "Device Recommendation",
     inputFields: [
       {
-        id: "input-014aa",
-        name: "Case History Notes",
+        id: "input-014",
+        name: "COSI Goals", // Use COSI Goals for recommendation
       },
     ],
   },
