@@ -27,13 +27,6 @@ Components?.map((component: Component, index: number) => {
     targetElement?.parentNode?.insertBefore(root, targetElement.nextSibling)
 
     switch (component.type) {
-      case 'prompt':
-        createRoot(root).render(
-          <StrictMode key={index}>
-            <RenderComponent {...component} />
-          </StrictMode>
-        )
-        break
 
       case 'file':
         createRoot(root).render(
@@ -43,7 +36,12 @@ Components?.map((component: Component, index: number) => {
         )
         break
 
-      default:
+        default:
+          createRoot(root).render(
+            <StrictMode key={index}>
+            <RenderComponent {...component} />
+            </StrictMode>
+        )
         break
     }
 

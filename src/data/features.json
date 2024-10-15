@@ -1,0 +1,398 @@
+{
+  "features": [
+    {
+      "feature": "Sirius Chip",
+      "benefit": "The embedded motion sensor detects head and body movements, and several acoustic sensors detect sound level, signal-to noise ratio, and conversation activity. This helps MSI 3.0 to deliver a personalised approach to its signal processing. Benefit: Delivering advanced performance."
+    },
+    {
+      "feature": "4D Sensor Technology",
+      "benefit": "The embedded motion sensor detects head and body movements, and several acoustic sensors detect sound level, signal-to noise ratio, and conversation activity. This helps MSI 3.0 to deliver a personalised approach to its signal processing.  Benefit: Delivering advanced performance."
+    },
+    {
+      "feature": "MoreSound Intelligence 3.0",
+      "benefit": "With the enhanced Deep Neural Network 2.0 and 4D sensor technology, MoreSound Intelligence™ 3.0 provides clients with the full sound scene in much higher clarity and balance." 
+    },
+    {
+      "feature": "Wind and Handling Stabilizer",
+      "benefit": "Each microphone independently monitors the incoming signal 500/second for the presence of uncorrelated noise. Upon detection, the microphone with more turbulence is momentarily deactivated ensuring that less wind and handling noise enter the sound processing pathway"
+    },
+    {
+      "feature": "Environment Classifier",
+      "benefit": "Slider in Genie 2 which specifies the hearing situations the client finds easy and difficult. This input influences how MoreSound Intelligence™ 3.0 handles the sound scene to provide the required level of comfort and clarity"
+    },
+    {
+      "feature": "Virtual Outer Ear",
+      "benefit": "Spatial Clarity Processing for easy environments uses three true-to-life pinna simulations allowing more or less frontal focus of all sounds."
+    },
+    {
+      "feature": "Neural Noise Suppression - Easy Environments",
+      "benefit": "Creates greater contrast between background and foreground allowing the client to follow conversation in easy environments without straining and switching their attention immediately when required."
+    },
+    {
+      "feature": "Intent-based Spatial Balancer",
+      "benefit": "Spatial Clarity Processing for difficult environments using fast adapting polar plots using the nulls to balance the sound scene by attenuating sounds not in focus. The levels of localised noise sources are reduced without impacting the speech signals."
+    },
+    {
+      "feature": "Neural Noise Suppression - Difficult Environments",
+      "benefit": "Allows the client to follow conversation in challenging situations without straining and switching their attention immediately when required."
+    },
+    {
+      "feature": "Sound Enhancer",
+      "benefit": "Provides dynamic sound detail when noise suppression is active in difficult environments. Added detail is mainly provided in the 1-4 kHz area, primarily enhancing speech sounds. Benefit – Better contrast between speech and noise"
+    },
+    {
+      "feature": "MoreSound Amplifier 3.0",
+      "benefit": "Dynamic and balanced amplification system that adapts its resolution and speed to the sound scene. It provides more sound and more headroom than ever before. Linear amplification is applied in a 9-12dB dynamic range window to preserve amplitude modulation cues in the speech signals. Benefit – Maintains the fine contrast and balance between sounds so they are recognised easier by the client."
+    },
+    {
+      "feature": "SuddenSound Stabilizer",
+      "benefit": "Integrated into MoreSound Amplifier™ 3.0, it protects against sudden sounds with fast recovery to preserve audibility and therefore reduce the impact on speech intelligibility. Benefit - Improved listening comfort when soft or loud sudden sounds occur."
+    },
+{
+      "feature": "MoreSound Optimizer",
+      "benefit": "Proactive feedback system that breaks the feedback loop using Spectro Temporal Modulation, allowing up to 6dB of additional gain for open fittings. Benefit – Decreases chances of feedback and gives greater access to high frequency sounds which improves speech understanding"
+    },
+    {
+      "feature": "Soft Speech Booster",
+      "benefit": "Improves access to soft high-frequency sounds by up to 3dB"
+    },
+    {
+      "feature": "Spatial Sound"
+      "benefit": "Using the energy-efficient and fast binaural communication offered by NFMI, Spatial Sound preserves inter-aural level differences. This maintains the sense of location and direction naturally provided by the head shadow effect. Multi-band analysis prevents LF from masking HF.Benefit - Provides a richer, more realistic sound picture so the client can perceive the location and direction of sounds with greater ease."
+    },
+    {
+      "feature": "Speech Rescue",
+      "benefit": "Oticon uses the composition technique as frequency lowering solution. Speech Rescue™ provides gain in the high frequencies as well as positioning a copy of the gain in the region where the client has better hearing. Clinicians can set the destination and the intensity however software will always provide a default setting for convenience. Benefit - Improve clarity of speech by letting the client hear more speech sounds like /s/ and /sh/."
+    },
+    {
+      "feature": "Clear Dynamics",
+      "benefit": "Clear Dynamics expands the input dynamic range in Intent 1 | 2, processing input sounds up to 113 dB SPL. This provides better sound quality without distortion and artefacts at loud input levels, while still keeping the sound quality of soft input levels intact. Intent 3 has a dynamic range of 95 dB SPL. Benefit – The client will experience superior sound quality especially when they are enjoying live music or engaging in conversations in noisy environments."
+    },
+    {
+      "feature": "MyMusic Program",
+      "benefit": "A dedicated program specifically designed for the pure enjoyment of music."
+    },
+    {
+      "feature": "Better-Ear Priority",
+      "benefit": "When a negative SNR is detected in both hearing devices, the hearing device with the poorer SNR reduces gain and the hearing device with the better SNR optimises speech understanding. Allowing the client to follow speech."
+    },
+    {
+      "feature": "Fitting Bandwidth",
+      "benefit": "Extended bandwidth for better sound quality and spatial awareness"
+    },
+    {
+      "feature": "Processing Channels",
+      "benefit": "Data is analysed and processed more channels for a more accurate sound quality"
+    },
+    {
+      "feature": "Power Bass (streaming)",
+      "benefit": "An extra bass boost (125 Hz – 625 Hz), for all streamed sounds, resulting in better sound quality."
+},
+    {
+      "feature": "Feedback Shield",
+      "benefit": "In order to improve efficiency and accuracy Feedback shield operates in two separate paths – one for each microphone. In each path three technologies work together to suppress potential feedback (frequency shift technology, phase inversion, and gain control adjustments)"
+    },
+    {
+      "feature": "Binaural Coordination",
+      "benefit": "Coordinates program and volume settings between devices."
+    },
+    {
+      "feature": "Tinnitus SoundSupport",
+      "benefit": "People with hearing loss and tinnitus need extra support in many every day listening environments. Tinnitus SoundSupport™ offers a combined solution for tinnitus relief. In simple environments relief sounds helps to remove focus from the tinnitus. In complex environments relief sounds are switched off allowing BGN to mask tinnitus."
+    },
+    {
+      "feature": "Fitting Bands",
+      "benefit": "Provides more precise fitting and fine-tuning options"
+    },
+    {
+      "feature": "Datalogging",
+      "benefit": "Logs volume control, program usage and total usage time"
+    },
+    {
+      "feature": "ConnectClip Compatible",
+      "benefit": "Connects hearing aids to mobile phones for hands-free streaming. Can also be used as a remote microphone and a volume control."
+    },
+    {
+      "feature": "EduMic Compatible",
+      "benefit": "Wireless remote microphone featuring Open Sound Navigator. Can be used in 4 modes: Microphone, FM, telecoil or jack."
+    },
+    {
+      "feature": "TV Adapter 3.0 Compatible",
+      "benefit": "Delivers an undisturbed stereo TV signal directly to the hearing device when watching TV. Benefit - With the TV Adapter 3.0 clients can enjoy sound from the TV directly in their hearing devices."
+    },
+    {
+      "feature": "Phone Adapter 2.0 Compatible",
+      "benefit": "Use ConnectClip together with Phone Adapter 2 (FW 2.0) to stream sound from a landline phone. This is an analogue solution for a landline phone. (Not compatible with VOIP or PABX phones"
+    },
+    {
+      "feature": "TwinLink",
+      "benefit": "Combines two distinct technologies in an innovative wireless communication system; energy-efficient binaural communication between two hearing devices (NFMI) and 2.4GHz for communication with external digital devices."
+    },
+    {
+      "feature": "Companion App",
+      "benefit": "Discreetly adjusts volume, programs, mute functions and access to more great features like live listen, find my hearing aid, access to RemoteCare and user instructions."
+    },
+    {
+      "feature": "Made for iPhone",
+      "benefit": "The hearing devices and accessories have been designed to connect to iPhone model and have been certified by the developer to meet Apple performance standards with Hands-Free Communication. Benefit - Enjoy audio streamed directly to hearing devices from your iPhone, iPad and iPod."
+    },
+    {
+      "feature": "ASHA compatible",
+      "benefit": "Bluetooth protocol based on Bluetooth Low Energy called Audio Streaming for Hearing Aids (ASHA). ASHA makes it possible for selected Android users to enjoy direct streaming of phone calls, music, or any other audio from an ASHA-compatible phone."
+    },
+    {
+      "feature": "Bluetooth LE Audio",
+      "benefit": "LE (Low Energy) Audio is a new standard for low-power audio transmission over Bluetooth. Bluetooth LE allows Bluetooth devices to communicate while consuming minimal energy"
+    },
+    {
+      "feature": "Remote Control 3.0 Compatible",
+      "benefit": "Roughly the size of a modern car key, gives users discreet control over hearing devices. Users can easily adjust volume, switch between programs or control connectivity sources."
+    },
+    {
+      "feature": "CROS / CROS PX",
+      "benefit": "Provides dual streaming capabilities for single-sided deafness."
+    },
+    {
+      "feature": "Lithium Ion Rechargeable",
+      "benefit": "Li-ion batteries are able to achieve a full charge (within 2hrs) as a result of contact charging technology with the Oticon Intent Charger. Benefit - The rechargeable option is easy to use, convenient and environmentally friendly. No need to replace batteries every few days - the hearing devices are charged overnight for a full day’s use."
+    },
+  ],
+  "devices": [
+    "Intent 1": {
+      "name": "Intent 1",
+      "cost": "*****",
+      "technology level": "Optimal",
+      "Sirius Chip": "Y",
+      "4D SensorTechnology": "Y",
+      "MoreSound Intelligence 3.0": "*****",
+      "Wind and Handling Stabilizer": "Y",
+      "Environment Classifier": "5 Options",
+      "Virtual Outer Ear": "3 Options",
+      "Neural Noise Suppression - Easy Environments": "6dB",
+      "Intent-based Spatial Balancer": "100%",
+      "Neural Noise Suppression - Difficult Environment": "12dB",
+      "Sound Enhancer": "3 Options",
+      "MoreSound Amplifier 3.0": {
+        "Level": "*****",
+        "Window": "12dB",
+        "Dynamic Range": "113dB",
+      },
+      "SuddenSound Stabilizer": "6 Options",
+      "MoreSound Optimizer": "Y",
+      "Soft Speech Booster": "Y",
+      "Spatial Sound": "Y",
+      "Speech Rescue": "Y",
+      "Clear Dynamics": "Up to 113dB SPL",
+      "MyMusic Program": "Y",
+      "Better-Ear Priority": "Y",
+      "Fitting Bandwidth": "80Hz - 10kHz",
+      "Processing Channels": "64",
+      "Power Bass (streaming)": "Y",
+      "Feedback Shield": "Y",
+      "Binaural Coordination": "Y",
+      "Tinnitus SoundSupport": "Y",
+      "Fitting Bands": "24",
+      "Datalogging": "Y",
+      "ConnectCip Compatible": "Y",
+      "EduMic Compatible": "Y",
+      "TV Adapter 3.0 Compatible": "Y",
+      "Phone Adapter 2.0 Compatible": "Y",
+      "TwinLink": "Y",
+      "Companion App": "Y",
+      "Made for iPhone": "Y",
+      "ASHA compatible": "Y",
+      "Bluetooth LE Audio": "Y",
+      "Remote Control 3.0 Compatible": "Y",
+      "CROS / CROS PX": "Y",
+      "Lithium Ion Rechargeable": "Y",
+    },
+    "Intent 2": {
+      "name": "Intent 2",
+      "cost": "****",
+      "technology level": "Premium",
+      "Sirius Chip": "Y",
+      "4D SensorTechnology": "Y",
+      "MoreSound Intelligence 3.0": "****",
+      "Wind and Handling Stabilizer": "Y",
+      "Environment Classifier": "5 Options",
+      "Virtual Outer Ear": "2 Options",
+      "Neural Noise Suppression - Easy Environments": "4dB",
+      "Intent-based Spatial Balancer": "60%",
+      "Neural Noise Suppression - Difficult Environment": "10dB",
+      "Sound Enhancer": "2 Options",
+      "MoreSound Amplifier 3.0": {
+        "Level": "****",
+        "Window": "9dB",
+        "Dynamic Range": "113dB",
+      },
+      "SuddenSound Stabilizer": "5 Options",
+      "MoreSound Optimizer": "Y",
+      "Soft Speech Booster": "Y",
+      "Spatial Sound": "Y",
+      "Speech Rescue": "Y",
+      "Clear Dynamics": "Up to 113dB SPL",
+      "MyMusic Program": "Y",
+      "Better-Ear Priority": "Y",
+      "Fitting Bandwidth": "80Hz - 8kHz",
+      "Processing Channels": "48",
+      "Power Bass (streaming)": "Y",
+      "Feedback Shield": "Y",
+      "Binaural Coordination": "Y",
+      "Tinnitus SoundSupport": "Y",
+      "Fitting Bands": "20",
+      "Datalogging": "Y",
+      "ConnectCip Compatible": "Y",
+      "EduMic Compatible": "Y",
+      "TV Adapter 3.0 Compatible": "Y",
+      "Phone Adapter 2.0 Compatible": "Y",
+      "TwinLink": "Y",
+      "Companion App": "Y",
+      "Made for iPhone": "Y",
+      "ASHA compatible": "Y",
+      "Bluetooth LE Audio": "Y",
+      "Remote Control 3.0 Compatible": "Y",
+      "CROS / CROS PX": "Y",
+      "Lithium Ion Rechargeable": "Y",
+    },
+    "Intent 3": {
+      "name": "Intent 3",
+      "cost": "***",
+      "technology level": "Enhanced+",
+      "Sirius Chip": "Y",
+      "4D SensorTechnology": "N",
+      "MoreSound Intelligence 3.0": "***",
+      "Wind and Handling Stabilizer": "Y",
+      "Environment Classifier": "3 Options",
+      "Virtual Outer Ear": "1 Option",
+      "Neural Noise Suppression - Easy Environments": "2dB",
+      "Intent-based Spatial Balancer": "60%",
+      "Neural Noise Suppression - Difficult Environment": "8dB",
+      "Sound Enhancer": "1 Option",
+      "MoreSound Amplifier 3.0": {
+        "Level": "**",
+        "Window": "9dB",
+        "Dynamic Range": "95dB",
+      },
+      "SuddenSound Stabilizer": "4 Options",
+      "MoreSound Optimizer": "Y",
+      "Soft Speech Booster": "Y",
+      "Spatial Sound": "Y",
+      "Speech Rescue": "Y",
+      "Clear Dynamics": "Up to 95dB SPL",
+      "MyMusic Program": "Y",
+      "Better-Ear Priority": "Y",
+      "Fitting Bandwidth": "80Hz - 8kHz",
+      "Processing Channels": "48",
+      "Power Bass (streaming)": "Y",
+      "Feedback Shield": "Y",
+      "Binaural Coordination": "Y",
+      "Tinnitus SoundSupport": "Y",
+      "Fitting Bands": "18",
+      "Datalogging": "Y",
+      "ConnectCip Compatible": "Y",
+      "EduMic Compatible": "Y",
+      "TV Adapter 3.0 Compatible": "Y",
+      "Phone Adapter 2.0 Compatible": "Y",
+      "TwinLink": "Y",
+      "Companion App": "Y",
+      "Made for iPhone": "Y",
+      "ASHA compatible": "Y",
+      "Bluetooth LE Audio": "Y",
+      "Remote Control 3.0 Compatible": "Y",
+      "CROS / CROS PX": "Y",
+      "Lithium Ion Rechargeable": "Y",
+    },
+    "Intent 4": {
+      "name": "Intent 4",
+      "cost": "**",
+      "technology level": "Enhanced",
+      "Sirius Chip": "Y",
+      "4D SensorTechnology": "N",
+      "MoreSound Intelligence 3.0": "**",
+      "Wind and Handling Stabilizer": "Y",
+      "Environment Classifier": "Not Adjustable",
+      "Virtual Outer Ear": "1 Option",
+      "Neural Noise Suppression - Easy Environments": "0dB",
+      "Intent-based Spatial Balancer": "40%",
+      "Neural Noise Suppression - Difficult Environment": "4dB",
+      "Sound Enhancer": "1 Option",
+      "MoreSound Amplifier 3.0": {
+        "Level": "*",
+        "Window": "9dB",
+        "Dynamic Range": "95dB",
+      },
+      "SuddenSound Stabilizer": "2 Options",
+      "MoreSound Optimizer": "Y",
+      "Soft Speech Booster": "Y",
+      "Spatial Sound": "N",
+      "Speech Rescue": "Y",
+      "Clear Dynamics": "Up to 95dB SPL",
+      "MyMusic Program": "Y",
+      "Better-Ear Priority": "N",
+      "Fitting Bandwidth": "80Hz - 8kHz",
+      "Processing Channels": "48",
+      "Power Bass (streaming)": "N",
+      "Feedback Shield": "Y",
+      "Binaural Coordination": "Y",
+      "Tinnitus SoundSupport": "Y",
+      "Fitting Bands": "14",
+      "Datalogging": "Y",
+      "ConnectCip Compatible": "Y",
+      "EduMic Compatible": "Y",
+      "TV Adapter 3.0 Compatible": "Y",
+      "Phone Adapter 2.0 Compatible": "Y",
+      "TwinLink": "Y",
+      "Companion App": "Y",
+      "Made for iPhone": "Y",
+      "ASHA compatible": "Y",
+      "Bluetooth LE Audio": "Y",
+      "Remote Control 3.0 Compatible": "Y",
+      "CROS / CROS PX": "Y",
+      "Lithium Ion Rechargeable": "Y",
+    },
+    "Zircon 2": {
+      "name": "Zircon 2",
+      "cost": "*",
+      "technology level": "Entry",
+      "Sirius Chip": "N",
+      "4D SensorTechnology": "N",
+      "MoreSound Intelligence 3.0": "N",
+      "Wind and Handling Stabilizer": "N",
+      "Environment Classifier": "N/A",
+      "Virtual Outer Ear": "N/A",
+      "Neural Noise Suppression - Easy Environments": "N/A",
+      "Intent-based Spatial Balancer": "N/A",
+      "Neural Noise Suppression - Difficult Environment": "N/A",
+      "Sound Enhancer": "N/A",
+      "MoreSound Amplifier 3.0": "N/A",
+      "SuddenSound Stabilizer": "N/A",
+      "MoreSound Optimizer": "N",
+      "Soft Speech Booster": "N",
+      "Spatial Sound": "N",
+      "Speech Rescue": "N",
+      "Clear Dynamics": "Up to 95dB SPL",
+      "MyMusic Program": "N",
+      "Better-Ear Priority": "N",
+      "Fitting Bandwidth": "80Hz - 8kHz",
+      "Processing Channels": "48",
+      "Power Bass (streaming)": "N",
+      "Feedback Shield": "Y",
+      "Binaural Coordination": "Y",
+      "Tinnitus SoundSupport": "Y",
+      "Fitting Bands": "12",
+      "Datalogging": "Y",
+      "ConnectCip Compatible": "Y",
+      "EduMic Compatible": "Y",
+      "TV Adapter 3.0 Compatible": "Y",
+      "Phone Adapter 2.0 Compatible": "Y",
+      "TwinLink": "Y",
+      "Companion App": "Y",
+      "Made for iPhone": "Y",
+      "ASHA compatible": "Y",
+      "Bluetooth LE Audio": "N",
+      "Remote Control 3.0 Compatible": "Y",
+      "CROS / CROS PX": "Y",
+      "Lithium Ion Rechargeable": "Y",
+    },
+  ],
+}

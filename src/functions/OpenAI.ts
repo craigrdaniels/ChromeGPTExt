@@ -1,4 +1,7 @@
-import OpenAI from "openai";
+import { ChatOpenAI } from '@langchain/openai'
+import { StringOutputParser } from '@langchain/core/output_parsers'
+import { HumanMessage, SystemMessage } from '@langchain/core/messages'
+
 
 const OPENAI_API_KEY="import.meta.env.VITE_OPENAI_API_KEY"
 
@@ -17,46 +20,26 @@ const reportError = ({ message }: {message: string}) => {
 }
 
 export const createResponse = async (input: string) => {
-  const openai = new OpenAI({
+
+  const messages = [
+    new SystemMessage(OPENAI_ROLE),
+    new HumanMessage(input)
+  ]
+
+  const model = new ChatOpenAI({
     apiKey: OPENAI_API_KEY,
-    dangerouslyAllowBrowser: true,
-  });
+    model: 'gpt-4o',
+    temperature: 0.8
+  })
+
+  const parser = new StringOutputParser()
 
   try {
-    const gptResponse = await openai.chat.completions.create({
-      model: "gpt-4o",
-      messages: [
-        {
-          role: "system",
-          content: [
-            {
-              text: OPENAI_ROLE,
-              type: "text",
-            },
-          ],
-        },
-        {
-          role: "user",
-          content: [
-            {
-              text: input,
-              type: "text",
-            },
-          ],
-        },
-      ],
-      temperature: 0.9,
-      max_tokens: 1500,
-      top_p: 1,
-      frequency_penalty: 0,
-      presence_penalty: 0,
-      response_format: {
-        type: "text",
-      },
-    }).then((res:OpenAI.ChatCompletion ) => {
-      return res.choices[0].message;
+    const result = await model.invoke(messages)
+    .then((res) => {
+      return parser.invoke(res)
     })
-    return gptResponse.content
+    return result
   } catch (error) {
     reportError({ message: getErrorMessage(error) });
   }

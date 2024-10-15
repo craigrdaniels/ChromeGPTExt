@@ -1,0 +1,65 @@
+{
+"TechnologyLevels": [
+  {
+    "Technology Level": "Optimal",
+    "Lifestyle": "Very Active",
+    "Listening Environments": [
+      "Conversation in quiet",
+      "TV",
+      "Conversation in a quiet cafe",
+      "Conversation in a small group",
+      "Restaurant",
+      "Conversation in noise",
+      "Crowds/Social Events",
+      "Party",
+      "Conversation in loud noise",
+      "Theatre/Live Music"
+    ]
+  },
+  {
+    "Technology Level": "Premium",
+    "Lifestyle": "Active",
+    "Listening Environments": [
+      "Conversation in quiet",
+      "TV",
+      "Conversation in a quiet cafe",
+      "Conversation in a small group",
+      "Restaurant",
+      "Conversation in noise",
+      "Crowds/Social Events",
+      "Party",
+      "Theatre/Live Music"
+    ]
+  },
+  {
+    "Technology Level": "Enhanced+",
+    "Lifestyle": "Casual",
+    "Listening Environments": [
+      "Conversation in quiet",
+      "TV",
+      "Conversation in a quiet cafe",
+      "Conversation in a small group",
+      "Restaurant",
+      "Conversation in noise"
+    ]
+  },
+  {
+    "Technology Level": "Enhanced",
+    "Lifestyle": "Quiet",
+    "Listening Environments": [
+      "Conversation in quiet",
+      "TV",
+      "Conversation in a quiet cafe",
+      "Conversation in a small group"
+    ]
+  },
+  {
+    "Technology Level": "Entry",
+    "Lifestyle": "Very Quiet",
+    "Listening Environments": [
+      "Conversation in quiet",
+      "TV"
+    ]
+  }
+]
+}

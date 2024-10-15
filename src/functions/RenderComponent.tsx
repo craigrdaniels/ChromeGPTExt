@@ -1,6 +1,7 @@
 import { useState, MouseEvent } from 'react'
 import { Sparkles, LoaderCircle } from 'lucide-react'
 import { createResponse } from './OpenAI'
+import { createRecommendation } from './OpenAIRecommendations'
 import { type Component } from '../components.types'
 
 const createMessage = (component: Component) => {
@@ -41,9 +42,17 @@ const RenderComponent = (component: Component) => {
           return
         }
 
-        const newMessage = await createResponse(message)
 
-        prevSibling.value = newMessage || ''
+        let newMessage = ""
+
+        if (component.type === 'recommendation') {
+          newMessage = await createRecommendation({ input: message }) || ""
+        } else {
+          newMessage = await createResponse(message) || ""
+        }
+
+
+        prevSibling.value = newMessage
       } else {
         console.error('No previous sibling')
         setIsError(true)
@@ -57,13 +66,13 @@ const RenderComponent = (component: Component) => {
   }
 
   return (
-      <button onClick={handleClick}>
-        {
-          loading ? <LoaderCircle className='icon loading' /> :
-            <Sparkles className={['icon', isError && 'error'].filter(Boolean).join(' ')}
-            />
-        }
-      </button>
+    <button onClick={handleClick}>
+      {
+        loading ? <LoaderCircle className='icon loading' /> :
+          <Sparkles className={['icon', isError && 'error'].filter(Boolean).join(' ')}
+          />
+      }
+    </button>
   )
 }
 

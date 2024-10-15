@@ -46,6 +46,20 @@ export const Components: Component[] = [
       },
     ],
   },
+  {
+    id: "my-ext",
+    type: "recommendation",
+    page: "F02C006",
+    name: "DeviceRecommendation",
+    targetId: "input-014x",
+    tooltip: "Device Recommendation",
+    inputFields: [
+      {
+        id: "input-014aa",
+        name: "Case History Notes",
+      },
+    ],
+  },
   // Clinical Notes
   {
     id: "my-ext",
