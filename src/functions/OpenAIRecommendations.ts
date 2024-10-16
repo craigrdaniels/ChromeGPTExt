@@ -1,16 +1,11 @@
-import { JSONLoader } from 'langchain/document_loaders/fs/json'
-import { MemoryVectorStore } from 'langchain/vectorstores/memory'
-import { OpenAIEmbeddings, ChatOpenAI } from '@langchain/openai'
-import { StringOutputParser, JsonOutputParser } from '@langchain/core/output_parsers'
+import { ChatOpenAI } from '@langchain/openai'
+import { StringOutputParser } from '@langchain/core/output_parsers'
 import { HumanMessage, SystemMessage } from '@langchain/core/messages'
-import { ChatPromptTemplate, PromptTemplate } from '@langchain/core/prompts'
-import { createStuffDocumentsChain } from 'langchain/chains/combine_documents'
 import * as lifestyleguide from '../data/lifestyleguide.json'
 
 
 const OPENAI_API_KEY = "import.meta.env.VITE_OPENAI_API_KEY"
 
-const loader = new JSONLoader('../data/lifestyleguide.json')
 
 const OPENAI_ROLE = "You are an audiologist's assistant. Your role is to make a hearing aid recommendation by matching hearing aid technology to client COSI goals and lifestyle\n\n{context}"
 
@@ -73,8 +68,6 @@ export const retreive_technologyLevel = async ({ listening_environments }: { lis
   return result
 }
 
-
-
 const getErrorMessage = (e: unknown) => {
   if (e instanceof Error) {
     return e.message;
@@ -87,11 +80,16 @@ const reportError = ({ message }: { message: string }) => {
   console.error(message);
 }
 
-export const createRecommendation = async ({input}: {input: string}) => {
+export const createRecommendation = async ({ input }: { input: string }) => {
 
-  //console.log(input)
+  try {
 
-  const recommendedTechnology = extract_keywords({ text: input }).then((res) => retreive_technologyLevel({ listening_environments: res }))
+    const recommendedTechnology = extract_keywords({ text: input }).then((res) => retreive_technologyLevel({ listening_environments: res }))
 
-  return recommendedTechnology
+    return recommendedTechnology
+  } catch (error) {
+    reportError({
+      message: getErrorMessage(error)
+    });
+  }
 }

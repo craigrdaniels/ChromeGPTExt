@@ -45,7 +45,7 @@ const RenderFileInput = (component: Component) => {
           reader.onload = async (e) => {
             try {
               const jsonData: JSONData = ReadXMLData(e.target?.result as string || '')
-              const message = createMessage(component, jsonData)
+              const message = createMessage(component, jsonData) || ""
               const newMessage = await createResponse(message)
               prevSibling.value = newMessage || ''
             } catch (error) {

@@ -5,12 +5,6 @@ const App = () => {
 
   useEffect(() => {
     const root = document.createElement('div')
-    root.id = 'my-ext'
-
-    const assessmentTextArea = document.getElementById('input-014aa')
-    // @ts-expect-error - parentNode is not a property of null
-    assessmentTextArea?.parentNode.classList.add('relative')
-    assessmentTextArea?.parentElement?.insertBefore(root, assessmentTextArea.nextSibling)
 
     createRoot(root).render(
       <StrictMode>
