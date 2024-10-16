@@ -1,4 +1,7 @@
-# Logs
+.env
+
+#
+Logs
 *.xml
 logs
 *.log
