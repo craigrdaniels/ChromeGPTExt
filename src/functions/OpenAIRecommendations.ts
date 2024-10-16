@@ -4,8 +4,7 @@ import { HumanMessage, SystemMessage } from '@langchain/core/messages'
 import * as lifestyleguide from '../data/lifestyleguide.json'
 
 
-const OPENAI_API_KEY = "import.meta.env.VITE_OPENAI_API_KEY"
-
+const OPENAI_API_KEY=import.meta.env.VITE_OPENAI_API_KEY
 
 const OPENAI_ROLE = "You are an audiologist's assistant. Your role is to make a hearing aid recommendation by matching hearing aid technology to client COSI goals and lifestyle\n\n{context}"
 
