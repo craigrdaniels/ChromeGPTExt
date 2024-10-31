@@ -1,6 +1,7 @@
 import { useState, MouseEvent } from 'react'
 import { Sparkles, LoaderCircle } from 'lucide-react'
 import { createResponse } from './VertexAI'
+import { createRecommendation } from './VertexAIRecommendations'
 import { type Component } from '../components.types'
 
 const createMessage = (component: Component) => {
