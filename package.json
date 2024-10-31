@@ -10,15 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@langchain/community": "^0.3.5",
-    "@langchain/core": "^0.3.11",
-    "@langchain/openai": "^0.3.7",
-    "langchain": "^0.3.2",
-=======
     "@google-cloud/vertexai": "^1.9.0",
     "@google/generative-ai": "^0.21.0",
->>>>>>> gemini
+    "@langchain/community": "^0.3.11",
+    "@langchain/core": "^0.3.16",
+    "@langchain/openai": "^0.3.11",
+    "langchain": "^0.3.5",
     "lucide-react": "^0.436.0",
     "openai": "^4.69.0",
     "react": "^18.3.1",
@@ -29,6 +26,7 @@
     "@crxjs/vite-plugin": "2.0.0-beta.25",
     "@eslint/js": "^9.13.0",
     "@types/chrome": "^0.0.270",
+    "@types/node": "^22.8.4",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",

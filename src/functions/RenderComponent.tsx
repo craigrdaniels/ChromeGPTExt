@@ -1,11 +1,6 @@
 import { useState, MouseEvent } from 'react'
 import { Sparkles, LoaderCircle } from 'lucide-react'
-<<<<<<< HEAD
-import { createResponse } from './OpenAI'
-import { createRecommendation } from './OpenAIRecommendations'
-=======
 import { createResponse } from './VertexAI'
->>>>>>> gemini
 import { type Component } from '../components.types'
 
 const createMessage = (component: Component) => {
