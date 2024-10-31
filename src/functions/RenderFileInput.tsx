@@ -1,6 +1,6 @@
 import { useState, ChangeEvent } from 'react'
 import { type Component } from '../components.types'
-import { createResponse } from './OpenAI'
+import { createResponse } from './VertexAI'
 import { CloudUpload, LoaderCircle } from 'lucide-react'
 
 import ReadXMLData, { type JSONData } from './ReadXMLData'
