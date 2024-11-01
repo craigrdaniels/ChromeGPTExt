@@ -31,7 +31,12 @@ const RenderComponent = (component: Component) => {
     try {
 
       const target = e.currentTarget
-      const prevSibling = target.parentElement?.previousSibling
+
+      let prevSibling = target.parentElement?.previousSibling
+
+      if (!(prevSibling && (prevSibling instanceof HTMLInputElement || prevSibling instanceof HTMLTextAreaElement))) {
+        prevSibling = target.parentElement?.previousSibling?.previousSibling
+      }
 
       if (prevSibling && (prevSibling instanceof HTMLInputElement || prevSibling instanceof HTMLTextAreaElement)) {
         const message = createMessage(component)

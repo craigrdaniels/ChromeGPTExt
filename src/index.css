@@ -22,6 +22,10 @@
   width: 1.5rem;
 }
 
+.component .icon.micon {
+  color: #FF000080;
+}
+
 .component .icon.error {
   color: #FF000080;
 }

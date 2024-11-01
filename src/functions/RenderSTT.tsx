@@ -3,7 +3,7 @@ import { useSpeechRecognition } from 'react-speech-kit'
 import { createResponse } from './VertexAI'
 import { MicOff, Mic, LoaderCircle } from 'lucide-react'
 
-const RenderTTS = () => {
+const RenderSTT = () => {
 
   const [finalTranscript, setFinalTranscript] = useState<string>('')
   const [targetTextArea, setTargetTextArea] = useState<HTMLTextAreaElement | null>(null)
@@ -77,4 +77,4 @@ const RenderTTS = () => {
   )
 }
 
-export default RenderTTS
+export default RenderSTT

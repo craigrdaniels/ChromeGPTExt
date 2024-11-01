@@ -14,9 +14,9 @@ export const Components: Component[] = [
   },
   {
     id: "my-ext",
-    type: "tts",
+    type: "stt",
     page: "F02C006",
-    name: "TTSInput",
+    name: "SSTInput",
     targetId: "input-014aa"
   },
   {

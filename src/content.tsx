@@ -4,7 +4,7 @@ import './index.css'
 import { Components } from './components'
 import RenderComponent from './functions/RenderComponent'
 import RenderFileInput from './functions/RenderFileInput'
-import RenderTTS from './functions/RenderTTS'
+import RenderSTT from './functions/RenderSTT'
 
 
 Components?.map((component: Component, index: number) => {
@@ -30,7 +30,7 @@ Components?.map((component: Component, index: number) => {
       case 'tts':
         root.classList.add('tts')
         createRoot(root).render(
-            <RenderTTS key={index} />
+            <RenderSTT key={index} />
         )
         break
 
