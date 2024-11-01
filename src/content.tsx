@@ -1,4 +1,3 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { type Component } from './components.types'
 import './index.css'
@@ -28,41 +27,28 @@ Components?.map((component: Component, index: number) => {
     targetElement?.parentNode?.insertBefore(root, targetElement.nextSibling)
 
     switch (component.type) {
-<<<<<<< HEAD
-=======
       case 'tts':
         root.classList.add('tts')
         createRoot(root).render(
-          <StrictMode key={index}>
-            <RenderTTS />
-          </StrictMode>
+            <RenderTTS key={index} />
         )
         break
-
-
 
       case 'prompt':
         createRoot(root).render(
-          <StrictMode key={index}>
-            <RenderComponent {...component} />
-          </StrictMode>
+            <RenderComponent {...component} key={index} />
         )
         break
->>>>>>> 866bfbe (init TTS support)
 
       case 'file':
         createRoot(root).render(
-          <StrictMode key={index}>
-            <RenderFileInput {...component} />
-          </StrictMode>
+            <RenderFileInput {...component} key={index} />
         )
         break
 
         default:
           createRoot(root).render(
-            <StrictMode key={index}>
-            <RenderComponent {...component} />
-            </StrictMode>
+            <RenderComponent {...component} key={index} />
         )
         break
     }

@@ -1,4 +1,4 @@
-import { StrictMode, useEffect } from 'react'
+import { useEffect } from 'react'
 import { createRoot } from 'react-dom/client'
 
 const App = () => {
@@ -7,8 +7,8 @@ const App = () => {
     const root = document.createElement('div')
 
     createRoot(root).render(
-      <StrictMode>
-      </StrictMode>
+      <>
+      </>
     )
   }, [])
 

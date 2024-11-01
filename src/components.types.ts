@@ -5,11 +5,7 @@ type InputFields = {
 
 export type Component = {
   id: string,
-<<<<<<< HEAD
-  type: 'prompt' | 'file' | 'recommendation',
-=======
-  type: 'prompt' | 'file' | 'tts',
->>>>>>> 866bfbe (init TTS support)
+  type: 'prompt' | 'file' | 'recommendation' | 'tts',
   page: string,
   name: string,
   targetId: string,
