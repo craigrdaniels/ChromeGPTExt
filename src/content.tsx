@@ -27,8 +27,8 @@ Components?.map((component: Component, index: number) => {
     targetElement?.parentNode?.insertBefore(root, targetElement.nextSibling)
 
     switch (component.type) {
-      case 'tts':
-        root.classList.add('tts')
+      case 'stt':
+        root.classList.add('stt')
         createRoot(root).render(
             <RenderSTT key={index} />
         )

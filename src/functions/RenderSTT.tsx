@@ -69,7 +69,7 @@ const RenderSTT = () => {
     <button onClick={handleClick}>
       {
         loading ? <LoaderCircle className='icon loading' /> : (
-          listening ? <Mic className='icon' /> :
+          listening ? <Mic className='icon micon' /> :
             <MicOff className='icon' />
         )
       }
